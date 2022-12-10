@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #232f25 16.62%, rgb(64, 192, 64) 85.61%);
+}
+
+.conteudo{
+    margin-bottom: 48px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: darkorange;
+}
+
+.conteudo-principal-imagem{
+    height: 600px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #451fad ;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color:#451fad ;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Sarala';
+    font-weight: 400;
+    font-size: 18px;
+    color: aquamarine;
+}
+
+.tecnicas{
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tecnicas-inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.tecnicas-titulo-principal{
+    border-top: 0.4px solid #451fad ;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color:#451fad ;
+}
+
+.tecnicas-paragrafo-principal{
+    font-family: 'Sarala';
+    font-weight: 400;
+    font-size: 18px;
+    color: aquamarine;
+}
+
+.tecnicas-titulo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: yellow;
+}
+
+.tecnicas-imagem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 48px;
+}
+
+.tecnicas-paragrafo-secundario{
+    padding-top: 48px;
+    font-family: 'Sarala';
+    font-weight: 400;
+    font-size: 18px;
+    color: aquamarine;
+}
